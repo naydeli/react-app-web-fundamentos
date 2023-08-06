@@ -8,12 +8,8 @@ import {
     MdHelp,
   } from 'react-icons/md';
 
-type Props = {
-    mostrar: number;
-    setMostrar: any;
-}
 
-export const Aside = (props: Props) => {
+export const Aside = (props: any) => {
 
     const {mostrar, setMostrar} = props;
     
